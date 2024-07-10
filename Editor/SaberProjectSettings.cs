@@ -5,7 +5,7 @@ using UnityEngine;
 public class SaberProjectSettings : ScriptableObject
 {
     public const string SaberProjectDomain = "com.factorycore.tonimacaroni.sabertoolkit";
-    public const string NpmRegistryHost = "http://195.90.208.226:4874";
+    public const string NpmRegistryHost = "https://github.com/Parapass/SaberToolkit.git";
     public const string SettingsPath = "Assets/_SaberToolkitData/SaberProjectSettings.asset";
 
     [SerializeField] public string BeatSaberPath;
